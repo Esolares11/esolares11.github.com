@@ -1,0 +1,159 @@
+.prueba{font-family:helvetica,arial,sans-serif;margin:0;}
+
+
+
+
+.container{
+  background: #355c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.content{
+  max-width: 960px;
+  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  background-color:#fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  position: relative;
+  padding: 1.8em;
+  
+}
+
+.actions{ /* acá esta las modificaciónes de la X */
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.action {/* modificaciónes del número 1 de lado del titulo*/
+   font-size: 30px;
+  height: 70px;
+  width: 50px;
+  background-color:#C6426E;
+ box-shadow: 0 3px 6px rgba(0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: white;
+  font-weight:800;
+  cursor: pointer;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+a:hover{
+  opacity: 0.6;
+}
+
+.tit{/*acá estan las modificaciones del titulo*/
+  margin-top: 30px;
+  margin-left: 35px;
+  margin-right: 0.5em;
+  font-size: 2em;
+
+}
+
+.tit{/*linea bajo el titulo */
+  border-bottom: #C6426E 4px solid;
+}
+
+.direccion{
+  margin-top: 2em;
+  font-weight:bold;
+  color: #642B73;
+}
+
+.main-img{/*todo sobre la imagen de Sensei */
+  float: left;
+  margin-right: 1em;
+  height: 180px;
+}
+
+
+
+.lineas{/*modificaciones del margen del número */
+    position: absolute;
+    top:65px;
+    left :5px;
+}
+
+
+.close{/*Modificaciones del boton X */
+  height: 30px;
+  width: 30px;
+  color: white;
+  border-radius: 50%;
+  background-color: #642B73;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+a{/* Acá esta todo el css sobre el link */
+  text-decoration:underline;
+  color: #d500f9;
+}
+
+.title{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.paragramp{
+  line-height: 1.8em;
+
+  font-weight: 300;
+}
+
+.fa-star{
+  color:#ffc400;
+}
+
+.table{
+width: 100%;
+border-spacing: 0;
+}
+
+.table td , .table th{
+padding: 1em;
+text-align: left;
+}
+
+
+
+.table tr:nth-child(even){ background-color: #f3e5f5 }/*acá esta la modificacion para que tengan fondo gris cada linea */
+
+.titulos{
+  font-weight: bolder;
+  text-transform: uppercase;
+
+}
+
+@media(max-width:600px){
+  .content{
+    padding: 1em;
+  }
+
+}
+
+@media(min-height:550px){
+  .content{
+    height: 500px;
+  }
+}
